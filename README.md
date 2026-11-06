@@ -57,3 +57,12 @@ Edit `games.json` or replace images in `assets/images/`, then commit the changes
 
 ## Image note
 Use game cover images that you have permission to publish. For best results, use JPG or WebP images with a consistent crop (roughly square or portrait).
+
+## Manage the collection without coding
+1. Open `admin.html` on your published site (for example, `https://YOUR-GITHUB-USERNAME.github.io/boardlah-game-library/admin.html`).
+2. Add, edit or delete listings. You can paste a public image URL or upload a cover image in the admin panel.
+3. Click **Download games.json** when you're ready to publish.
+4. In GitHub, open your repository, choose **Add file → Upload files**, and upload the downloaded `games.json`, replacing the existing file. Commit the change. GitHub Pages will publish the updated collection.
+5. If you use another browser/device, import the latest `games.json` first. Draft changes are stored only in the current browser until exported.
+
+**Important:** This is a static-site admin helper, not a secured multi-user content system. The admin page has no password protection. Keep its URL private. Anyone who knows the URL can access the page, but changes are not published until an updated `games.json` is committed to GitHub. Uploaded cover images are embedded in `games.json`; use reasonably small images to keep the file manageable.
