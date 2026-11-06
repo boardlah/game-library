@@ -1,0 +1,802 @@
+[
+  {
+    "id": "beer-and-bread",
+    "title": "Beer & Bread",
+    "players": "2",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playtime": "30–45 min",
+    "difficulty": "Medium",
+    "category": [
+      "Strategy",
+      "Card Game"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A two-player strategy game about managing resources, producing goods and balancing two competing harvest years.",
+    "image": ""
+  },
+  {
+    "id": "blood-on-the-clocktower",
+    "title": "Blood on the Clocktower",
+    "players": "5–20",
+    "minPlayers": 5,
+    "maxPlayers": 20,
+    "playtime": "30–120 min",
+    "difficulty": "Hard",
+    "category": [
+      "Social Deduction",
+      "Bluffing",
+      "Party"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Large Groups"
+    ],
+    "description": "A social deduction game of hidden roles, discussion, deception and deduction. A Storyteller guides the group through the game.",
+    "image": ""
+  },
+  {
+    "id": "citadels",
+    "title": "Citadels",
+    "players": "2–8",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playtime": "30–60 min",
+    "difficulty": "Medium",
+    "category": [
+      "Strategy",
+      "Card Game",
+      "Bluffing"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "Choose character roles, gather gold and build districts while anticipating your opponents' choices.",
+    "image": ""
+  },
+  {
+    "id": "cluedo",
+    "title": "Cluedo",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "45 min",
+    "difficulty": "Easy",
+    "category": [
+      "Deduction",
+      "Family"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "Solve a murder mystery by working out the suspect, weapon and room.",
+    "image": ""
+  },
+  {
+    "id": "collect",
+    "title": "Collect!",
+    "players": "",
+    "minPlayers": null,
+    "maxPlayers": null,
+    "playtime": "",
+    "difficulty": "",
+    "category": [],
+    "bestFor": [],
+    "description": "Add a short description and game details when ready.",
+    "image": ""
+  },
+  {
+    "id": "dead-of-winter",
+    "title": "Dead of Winter: A Crossroads Game",
+    "players": "2–5",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playtime": "60–120 min",
+    "difficulty": "Hard",
+    "category": [
+      "Cooperative",
+      "Survival",
+      "Storytelling"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A semi-cooperative survival game where a colony faces crises, scarce resources and personal objectives.",
+    "image": ""
+  },
+  {
+    "id": "dead-of-winter-long-night",
+    "title": "Dead of Winter: The Long Night",
+    "players": "2–5",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playtime": "60–120 min",
+    "difficulty": "Hard",
+    "category": [
+      "Cooperative",
+      "Survival",
+      "Storytelling"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A standalone follow-up in the Dead of Winter series, featuring survival challenges and hidden agendas.",
+    "image": ""
+  },
+  {
+    "id": "dead-of-winter-warring-colonies",
+    "title": "Dead of Winter: Warring Colonies (Expansion)",
+    "players": "4–11",
+    "minPlayers": 4,
+    "maxPlayers": 11,
+    "playtime": "60–120 min",
+    "difficulty": "Hard",
+    "category": [
+      "Expansion",
+      "Cooperative",
+      "Survival"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "An expansion for Dead of Winter that adds a colony-versus-colony mode. Requires a compatible base game.",
+    "image": ""
+  },
+  {
+    "id": "decrypto",
+    "title": "Decrypto",
+    "players": "3–8",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playtime": "15–45 min",
+    "difficulty": "Medium",
+    "category": [
+      "Team-Based",
+      "Deduction",
+      "Word Game"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Groups"
+    ],
+    "description": "Two teams give coded clues to communicate secret words while trying to intercept the opposing team's code.",
+    "image": ""
+  },
+  {
+    "id": "decrypto-laserdrive",
+    "title": "Decrypto Expansion: Laserdrive (Expansion)",
+    "players": "3–8",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playtime": "15–45 min",
+    "difficulty": "Medium",
+    "category": [
+      "Expansion",
+      "Team-Based",
+      "Deduction"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Groups"
+    ],
+    "description": "An expansion for Decrypto that adds extra modules and challenges. Requires the base game.",
+    "image": ""
+  },
+  {
+    "id": "detective",
+    "title": "Detective: A Modern Crime Board Game",
+    "players": "1–5",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playtime": "120–180 min",
+    "difficulty": "Hard",
+    "category": [
+      "Deduction",
+      "Cooperative",
+      "Investigation"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A cooperative investigation game where players connect clues and investigate cases.",
+    "image": ""
+  },
+  {
+    "id": "excalibur",
+    "title": "Excalibur",
+    "players": "",
+    "minPlayers": null,
+    "maxPlayers": null,
+    "playtime": "",
+    "difficulty": "",
+    "category": [],
+    "bestFor": [],
+    "description": "Add a short description and game details when ready.",
+    "image": ""
+  },
+  {
+    "id": "imploding-kittens",
+    "title": "Exploding Kittens: Imploding Kittens",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Card Game",
+      "Take That"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "A chaotic card game expansion introducing new cards and the Imploding Kitten. Check compatibility with your edition.",
+    "image": ""
+  },
+  {
+    "id": "exploding-kittens-party-pack",
+    "title": "Exploding Kittens: Party Pack",
+    "players": "2–10",
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Card Game",
+      "Take That"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A larger-group edition of the fast, funny card game.",
+    "image": ""
+  },
+  {
+    "id": "exploding-kittens-board-game",
+    "title": "Exploding Kittens: The Board Game",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "20–30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Family",
+      "Board Game"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "A board-game adaptation of the Exploding Kittens universe.",
+    "image": ""
+  },
+  {
+    "id": "feed-the-kraken",
+    "title": "Feed the Kraken",
+    "players": "5–11",
+    "minPlayers": 5,
+    "maxPlayers": 11,
+    "playtime": "45–90 min",
+    "difficulty": "Hard",
+    "category": [
+      "Social Deduction",
+      "Bluffing",
+      "Party"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Large Groups"
+    ],
+    "description": "A hidden-role game of shifting loyalties, secret factions and dangerous decisions aboard a ship.",
+    "image": ""
+  },
+  {
+    "id": "flamecraft-duals",
+    "title": "Flamecraft Duals",
+    "players": "2",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playtime": "30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Two Player",
+      "Strategy",
+      "Puzzle"
+    ],
+    "bestFor": [
+      "Adults",
+      "Families"
+    ],
+    "description": "A two-player game set in the Flamecraft world, focused on clever placement and tactical choices.",
+    "image": ""
+  },
+  {
+    "id": "flip-7",
+    "title": "Flip 7",
+    "players": "3–18",
+    "minPlayers": 3,
+    "maxPlayers": 18,
+    "playtime": "20 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Push Your Luck",
+      "Card Game"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A push-your-luck card game where players decide whether to keep drawing or bank their points.",
+    "image": ""
+  },
+  {
+    "id": "flip-7-with-a-vengeance",
+    "title": "Flip 7: With a Vengeance",
+    "players": "3–18",
+    "minPlayers": 3,
+    "maxPlayers": 18,
+    "playtime": "20 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Push Your Luck",
+      "Card Game"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A follow-up version of Flip 7 with additional twists to the push-your-luck formula.",
+    "image": ""
+  },
+  {
+    "id": "heat",
+    "title": "Heat: Pedal to the Metal",
+    "players": "1–6",
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playtime": "30–60 min",
+    "difficulty": "Medium",
+    "category": [
+      "Racing",
+      "Strategy",
+      "Hand Management"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Families"
+    ],
+    "description": "A car-racing game where players manage speed, heat and their hand of cards to navigate the track.",
+    "image": ""
+  },
+  {
+    "id": "hikadyat-al-kisah",
+    "title": "Hikadyat Al-Kisah",
+    "players": "",
+    "minPlayers": null,
+    "maxPlayers": null,
+    "playtime": "",
+    "difficulty": "",
+    "category": [],
+    "bestFor": [],
+    "description": "Add a short description and game details when ready.",
+    "image": ""
+  },
+  {
+    "id": "horrified",
+    "title": "Horrified",
+    "players": "1–5",
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playtime": "60 min",
+    "difficulty": "Medium",
+    "category": [
+      "Cooperative",
+      "Strategy",
+      "Adventure"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults",
+      "Gamers"
+    ],
+    "description": "Work together to protect a village from classic monsters, each with its own challenge.",
+    "image": ""
+  },
+  {
+    "id": "hot-streak",
+    "title": "Hot Streak",
+    "players": "2–9",
+    "minPlayers": 2,
+    "maxPlayers": 9,
+    "playtime": "30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Betting",
+      "Racing"
+    ],
+    "bestFor": [
+      "Adults",
+      "Groups"
+    ],
+    "description": "A lively betting game where players predict the outcome of an unpredictable race.",
+    "image": ""
+  },
+  {
+    "id": "jinxo",
+    "title": "JinxO",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "15–30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Word Game",
+      "Creative"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A creative word and association game where players try to come up with answers that match—or stand out from—the group.",
+    "image": ""
+  },
+  {
+    "id": "joking-hazard",
+    "title": "Joking Hazard",
+    "players": "3–10",
+    "minPlayers": 3,
+    "maxPlayers": 10,
+    "playtime": "30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Humour",
+      "Card Game"
+    ],
+    "bestFor": [
+      "Adults",
+      "Groups"
+    ],
+    "description": "A party game where players combine comic panels to create unexpected and often outrageous comic strips.",
+    "image": ""
+  },
+  {
+    "id": "king-of-tokyo-monster-box",
+    "title": "King of Tokyo: Monster Box",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Dice Rolling",
+      "Strategy",
+      "Family"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "Monsters battle for control of Tokyo using dice, energy and special powers.",
+    "image": ""
+  },
+  {
+    "id": "modern-art",
+    "title": "Modern Art",
+    "players": "3–5",
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playtime": "45 min",
+    "difficulty": "Medium",
+    "category": [
+      "Auction",
+      "Strategy",
+      "Economic"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "An auction game about buying and selling works of art while influencing which artists become valuable.",
+    "image": ""
+  },
+  {
+    "id": "monopoly-f1",
+    "title": "Monopoly: F1",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "60–120 min",
+    "difficulty": "Easy",
+    "category": [
+      "Family",
+      "Economic",
+      "Trading"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "A Formula 1-themed take on the classic property trading game.",
+    "image": ""
+  },
+  {
+    "id": "nak-makan-apa",
+    "title": "Nak Makan Apa",
+    "players": "",
+    "minPlayers": null,
+    "maxPlayers": null,
+    "playtime": "",
+    "difficulty": "",
+    "category": [],
+    "bestFor": [],
+    "description": "Add a short description and game details when ready.",
+    "image": ""
+  },
+  {
+    "id": "obscurio",
+    "title": "Obscurio",
+    "players": "2–8",
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playtime": "45 min",
+    "difficulty": "Medium",
+    "category": [
+      "Cooperative",
+      "Deduction",
+      "Communication"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A communication and deduction game where players interpret visual clues while a traitor secretly works against the group.",
+    "image": ""
+  },
+  {
+    "id": "outsmarted",
+    "title": "Outsmarted!",
+    "players": "2–24",
+    "minPlayers": 2,
+    "maxPlayers": 24,
+    "playtime": "30–60 min",
+    "difficulty": "Easy",
+    "category": [
+      "Trivia",
+      "Party",
+      "Family"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A digital trivia board game with questions across a range of topics and age groups.",
+    "image": ""
+  },
+  {
+    "id": "resistance-avalon",
+    "title": "The Resistance: Avalon",
+    "players": "5–10",
+    "minPlayers": 5,
+    "maxPlayers": 10,
+    "playtime": "30 min",
+    "difficulty": "Medium",
+    "category": [
+      "Social Deduction",
+      "Bluffing",
+      "Party"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers",
+      "Groups"
+    ],
+    "description": "A hidden-role game of loyal servants and minions of Mordred, with teams trying to succeed or sabotage quests.",
+    "image": ""
+  },
+  {
+    "id": "saboteur",
+    "title": "Saboteur",
+    "players": "3–10",
+    "minPlayers": 3,
+    "maxPlayers": 10,
+    "playtime": "30 min",
+    "difficulty": "Easy",
+    "category": [
+      "Bluffing",
+      "Hidden Roles",
+      "Card Game"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults",
+      "Groups"
+    ],
+    "description": "Players secretly work as miners or saboteurs while building tunnels toward—or away from—the gold.",
+    "image": ""
+  },
+  {
+    "id": "scout",
+    "title": "Scout",
+    "players": "2–5",
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playtime": "20 min",
+    "difficulty": "Medium",
+    "category": [
+      "Card Game",
+      "Hand Management",
+      "Set Collection"
+    ],
+    "bestFor": [
+      "Adults",
+      "Gamers"
+    ],
+    "description": "A clever climbing card game where players manage a fixed hand and look for opportunities to scout or play stronger combinations.",
+    "image": ""
+  },
+  {
+    "id": "thats-not-a-hat-pop-culture",
+    "title": "That's Not a Hat: Pop Culture",
+    "players": "3–8",
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Memory",
+      "Bluffing"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults",
+      "Groups"
+    ],
+    "description": "A memory and bluffing party game with pop-culture-themed gifts to remember and pass along.",
+    "image": ""
+  },
+  {
+    "id": "uno-flip",
+    "title": "UNO Flip!",
+    "players": "2–10",
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Family",
+      "Card Game",
+      "Take That"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "A double-sided version of UNO where a Flip card switches everyone to the other side of their cards.",
+    "image": ""
+  },
+  {
+    "id": "uno-flip-attack",
+    "title": "UNO Flip Attack!",
+    "players": "2–10",
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Family",
+      "Card Game",
+      "Take That"
+    ],
+    "bestFor": [
+      "Families",
+      "Kids",
+      "Adults"
+    ],
+    "description": "A fast UNO variant combining the double-sided Flip deck with an electronic card launcher.",
+    "image": ""
+  },
+  {
+    "id": "uno-no-mercy",
+    "title": "UNO No Mercy",
+    "players": "2–6",
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playtime": "15 min",
+    "difficulty": "Easy",
+    "category": [
+      "Family",
+      "Card Game",
+      "Take That"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults"
+    ],
+    "description": "A more intense UNO variant with tougher action cards and a more punishing play style.",
+    "image": ""
+  },
+  {
+    "id": "wavelength",
+    "title": "Wavelength",
+    "players": "2–12",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "playtime": "30–45 min",
+    "difficulty": "Easy",
+    "category": [
+      "Party",
+      "Team-Based",
+      "Communication"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults",
+      "Groups"
+    ],
+    "description": "Teams try to read each other's minds by placing a clue on a spectrum between two opposing concepts.",
+    "image": ""
+  },
+  {
+    "id": "werewords",
+    "title": "Werewords",
+    "players": "4–10",
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "playtime": "10 min",
+    "difficulty": "Easy",
+    "category": [
+      "Social Deduction",
+      "Word Game",
+      "Party"
+    ],
+    "bestFor": [
+      "Families",
+      "Adults",
+      "Groups"
+    ],
+    "description": "Players ask yes-or-no questions to guess a secret word, while a hidden werewolf tries to mislead them.",
+    "image": ""
+  }
+]

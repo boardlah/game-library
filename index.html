@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the BoardLah board game collection. Find your next game by player count, difficulty and game category.">
+  <meta name="theme-color" content="#172b25">
+  <title>BoardLah Game Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="BoardLah Game Library home">
+      <span class="brand-mark">B</span><span>BoardLah <small>GAME LIBRARY</small></span>
+    </a>
+    <span class="header-note">A collection for every kind of game night</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DISCOVER · CHOOSE · PLAY</p>
+        <h1>Find your<br><em>next game.</em></h1>
+        <p class="hero-text">Browse the BoardLah collection and find the right game for your next gathering.</p>
+        <a class="hero-link" href="#collection">Explore the collection <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-card art-card-one"><span>PLAY</span><b>♟</b></div>
+        <div class="art-card art-card-two"><span>CONNECT</span><b>✳</b></div>
+        <div class="art-card art-card-three"><span>REPEAT</span><b>◎</b></div>
+        <div class="art-spark spark-one">✦</div><div class="art-spark spark-two">✳</div>
+      </div>
+    </section>
+
+    <section class="collection-section" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">THE BOARDLAH COLLECTION</p><h2>Explore our games<span class="period">.</span></h2></div>
+        <p class="collection-intro">From quick party games to deep strategy sessions, there's something for everyone.</p>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search games..." autocomplete="off"></label>
+        <label class="filter-control"><span>Players</span><select id="playerFilter"><option value="">Any player count</option></select></label>
+        <label class="filter-control"><span>Difficulty</span><select id="difficultyFilter"><option value="">Any difficulty</option><option>Very Easy</option><option>Easy</option><option>Medium</option><option>Hard</option></select></label>
+        <label class="filter-control"><span>Category</span><select id="categoryFilter"><option value="">All categories</option></select></label>
+        <button id="clearFilters" class="clear-button" type="button">Clear</button>
+      </div>
+
+      <div class="results-line"><p id="resultCount" aria-live="polite">Loading collection...</p><span>SELECT A GAME TO LEARN MORE ↗</span></div>
+      <div id="gameGrid" class="game-grid"></div>
+      <div id="emptyState" class="empty-state" hidden><span>☻</span><h3>No games found</h3><p>Try changing your search or clearing the filters.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">B</span><span>BoardLah <small>GAME LIBRARY</small></span></a>
+    <p>Bringing people together through games.</p>
+    <span>© <span id="year"></span> BoardLah</span>
+  </footer>
+
+  <dialog id="gameDialog" class="game-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close details">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
