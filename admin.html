@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><title>Admin · BoardLah Game Library</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="mark">B</span><span>BoardLah <small>GAME LIBRARY</small></span></a><span class="admin-label">ADMIN PANEL</span></header>
+  <main class="wrap">
+    <section class="intro"><div><p class="eyebrow">YOUR COLLECTION, YOUR RULES</p><h1>Manage your <em>games.</em></h1><p>Add new titles, update details and organise your collection — no coding needed.</p></div><div class="count-card"><strong id="gameCount">—</strong><span>games in your list</span></div></section>
+    <div class="notice"><strong>How saving works:</strong> Changes are saved in this browser while you work. When you're ready, click <b>Download games.json</b>, then upload that file to your GitHub repository to publish the changes. This admin page does not have a secure login, so keep its link private. Anyone who knows the link can open it.</div>
+    <section class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find a game..."></label><button class="btn secondary" id="importBtn">Import games.json</button><input id="importFile" type="file" accept=".json,application/json" hidden><button class="btn primary" id="addBtn">＋ Add a game</button></section>
+    <div class="workspace"><section class="list-panel"><div class="list-head"><h2>Your games</h2><span id="shownCount"></span></div><div id="gameList" class="game-list"></div><div id="noGames" class="empty" hidden>No games found. Try another search or add a game.</div></section>
+    <section class="editor-panel"><div class="editor-head"><div><p class="eyebrow">GAME DETAILS</p><h2 id="formTitle">Add a game</h2></div><span class="edit-state" id="editState">NEW LISTING</span></div>
+      <form id="gameForm">
+        <div class="field"><label for="title">Game name *</label><input id="title" required maxlength="120" placeholder="e.g. Ticket to Ride"></div>
+        <div class="two"><div class="field"><label for="minPlayers">Minimum players *</label><input id="minPlayers" type="number" min="1" max="999" required value="2"></div><div class="field"><label for="maxPlayers">Maximum players *</label><input id="maxPlayers" type="number" min="1" max="999" required value="4"></div></div>
+        <div class="two"><div class="field"><label for="playtime">Play time</label><input id="playtime" placeholder="e.g. 30–45 min"></div><div class="field"><label for="difficulty">Difficulty</label><select id="difficulty"><option>Very Easy</option><option>Easy</option><option selected>Medium</option><option>Hard</option></select></div></div>
+        <div class="field"><label for="category">Mechanics / category</label><input id="category" placeholder="Strategy, Card Game, Party"><small>Separate multiple items with commas.</small></div>
+        <div class="field"><label for="bestFor">Best for</label><input id="bestFor" placeholder="Families, Adults, Gamers"><small>Separate multiple items with commas.</small></div>
+        <div class="field"><label for="description">Game description</label><textarea id="description" rows="4" placeholder="A short description to help visitors understand the game."></textarea></div>
+        <div class="field"><label for="imageUrl">Image URL (optional)</label><input id="imageUrl" type="url" placeholder="https://..."><small>Use a publicly accessible image link, or upload a cover below.</small></div>
+        <div class="field"><label for="imageFile">Or upload a cover image</label><input id="imageFile" type="file" accept="image/*"><small>Image is resized and saved inside the exported games.json. Smaller images are recommended.</small><div id="imagePreview" class="image-preview" hidden><img id="previewImg" alt="Cover preview"><button type="button" class="text-button" id="removeImage">Remove image</button></div></div>
+        <div class="form-actions"><button class="btn primary" type="submit" id="saveBtn">Add game to list</button><button class="btn secondary" type="button" id="resetBtn">Clear form</button><button class="btn danger" type="button" id="deleteBtn" hidden>Delete game</button></div>
+      </form>
+    </section></div>
+    <footer class="bottom-actions"><div><strong>Ready to publish?</strong><span>Download your latest list, then replace games.json on GitHub.</span></div><button class="btn primary" id="exportBtn">↓ Download games.json</button></footer>
+    <p class="footnote"><a href="index.html">← Back to public library</a> · Your edits stay in this browser until you export them. Import the latest games.json before editing on another device.</p>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="admin.js"></script>
+</body></html>
